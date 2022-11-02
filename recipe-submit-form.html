@@ -25,28 +25,28 @@
     <main>
         <h1 class="underline">Browns' HTML recipe form</h1>
         <!--The code: name, method, and data-netlify is only for Netlify!!!-->
-        <form action="thank-you.html" name="contact" method="POST" data-netlify="true">
+        <form action="thank-you.html" name="recipe-form" method="POST" data-netlify="true">
             <p>
-                <label><strong>Your name</strong></label><br>
-                <input type="text" name="firstname"><br>
+                <label>Your name</label><br>
+                <input class="formfield" type="text" name="firstname"><br>
                 <label>Your email</label><br>
-                <input type="email" name="email"><br>
+                <input class="formfield" type="email" name="email"><br>
                 <label>Your telephone</label><br>
-                <input type="tel" name="telefoon" min="1" maxlength="10"><br>
+                <input class="formfield" type="tel" name="telephone" min="1" maxlength="10"><br>
                 <label>Your Age</label><br>
-                <input type="number" name="age" min="18" maxlength="110"><br>
+                <input class="formfield" type="number" name="age" min="18" maxlength="110"><br>
                 <label>Date of birth</label><br>
-                <input type="date" name="date"><br>
+                <input class="formfield" type="date" name="date"><br>
                 <br>
-                <label><strong>Gender</strong></label><br>
-                <input type="radio" name="gender" value="Man">
+                <label>Gender</label><br>
+                <input type="radio" name="gender" value="man">
                 <label>Man</label><br>
-                <input type="radio" name="gender" value="Woman">
+                <input type="radio" name="gender" value="woman">
                 <label>Woman</label><br>
-                <input type="radio" name="gender" value="Whatever">
+                <input type="radio" name="gender" value="whatever">
                 <label>Whatever</label><br>
                 <br>
-                <label><strong>Favorite cuisine</strong></label><br>
+                <label>Favorite cousine</label><br>
                 <input type="checkbox" name="fav-cousine" value="French">
                 <label>French</label><br>
                 <input type="checkbox" name="fav-cousine" value="Italian">
@@ -56,17 +56,17 @@
                 <input type="checkbox" name="fav-cousine" value="Greek">
                 <label>Greek</label><br>
                 <br>
-                <label for="favcolor"><strong>Select your favorite apron color</strong></label><br>
+                <label for="favcolor">Select your favorite apron color</label><br>
                 <input type="color" id="favcolor" name="favcolor"><br>
                 <br>
                 <label>Your biography</label><br>
-                <textarea rows="10" cols="50px" name="biography"></textarea><br>
+                <textarea class="formfield-area" rows="10" cols="50px" name="biography"></textarea><br>
                 <br>
                 <label>Upload your recipe</label><br>
-                <input type="file" name="myfile" value="Upload"><br>
+                <input class="button-blue button2" type="file" name="myrecipe" value="Upload"><br>
                 <br>
                 <label>Your website</label><br>
-                <input type="url" name="website"><br>
+                <input class="formfield" type="url" name="website"><br>
                 <br>
                 <input type="reset" class="button-blue button2" value="Reset">
                 <input type="submit" class="button-blue button1" value="Submit my recipe">
