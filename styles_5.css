@@ -4,7 +4,7 @@ nav {
   display: block;
   box-shadow: rgba(152, 152, 152, 0.325) 0px 25px 50px;
   border-radius: 0px 0px 20px 20px;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
 }
 
 .nav-li {
@@ -25,8 +25,14 @@ nav {
   background-color: rgb(0, 136, 255);
   color: white !important;
   text-align: center;
-  padding: 75px 20px;
+  padding: 20px 10px;
   text-decoration: none;
+}
+
+@media (min-width 1024px) {
+  .nav-li a {
+    padding: 50px 20px;
+  }
 }
 
 .nav-li a:hover {
@@ -37,32 +43,39 @@ nav {
 .nav-ul {
   list-style-type: none;
   margin: 0px;
-  padding: 20px;
+  padding: 10px;
   overflow: hidden;
   background-color: rgb(0, 136, 255);
   border-radius: 0px 0px 20px 20px;
 }
 
+@media (min-width 1024px) {
+  .nav-ul {
+    padding: 20px;
+  }
+}
+
 body {
+  margin: 0px 5% 5% 5%;
   color: gray;
   font-size: 1em;
   font-family: "Inter", "Arial Narrow", sans-serif;
   line-height: 1.6em;
-  margin: 0px 20px 20px 20px;
 }
 
 @media (min-width: 1024px) {
   body {
     font-size: 1.2em;
     line-height: 1.8em;
-    margin: 0px 10px 20px 10px;
   }
 }
 
 main {
   margin-bottom: 4em;
-  padding-top: 30px;
+  padding-top:20px;
+  padding-right: 5%;
   padding-bottom: 30px;
+  padding-left: 5%;
 }
 
 /* Typo stuff */
@@ -70,13 +83,13 @@ main {
 h1 {
   color: rgb(79, 79, 79);
   font-size: 2.75em;
-  line-height: 1.5em;
+  line-height: 1.2em;
 }
 
 h2 {
   color: gray;
   font-size: 2.25em;
-  line-height: 1.5em;
+  line-height: 1.1em;
 }
 
 .underline {
