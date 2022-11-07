@@ -29,9 +29,9 @@ nav {
   text-decoration: none;
 }
 
-@media (min-width 1024px) {
+@media (min-width: 1024px) {
   .nav-li a {
-    padding: 50px 20px;
+    padding: 50px 50px;
   }
 }
 
@@ -49,9 +49,9 @@ nav {
   border-radius: 0px 0px 20px 20px;
 }
 
-@media (min-width 1024px) {
+@media (min-width: 1024px) {
   .nav-ul {
-    padding: 20px;
+    padding: 50px;
   }
 }
 
