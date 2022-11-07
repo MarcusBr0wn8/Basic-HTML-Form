@@ -93,7 +93,7 @@ h2 {
 }
 
 .underline {
-  border-bottom: 0px none gray;
+  border-bottom: 1px solid gray;
   transition: all 0.5s;
 }
 
